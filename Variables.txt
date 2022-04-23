@@ -1,0 +1,46 @@
+Model_Name
+bilstm
+stacked bilstm
+convlstms
+conv
+convbilstms
+lstm
+stacked lstm
+###############################
+LSTM for Regression Using the Window Method (increasing the look_back argument from 1 to 3)[№ look back]:3
+################################
+Enter the number of epochs: 100
+################################
+Enter the Loss Function ==> MeanSquaredError
+MeanSquaredError ==>  Computes the mean squared error between labels and predictions.
+MeanAbsoluteError ==>  Computes the mean absolute error between labels and predictions.
+MeanAbsolutePercentageError ==>  Computes the mean absolute percentage error between y_true and y_pred.
+mean_squared_logarithmic_error ==>  Computes the mean squared logarithmic error between y_true and y_pred.
+cosine_similarity ==> Computes the cosine similarity between labels and predictions.
+Huber ==>  Computes the Huber loss between y_true and y_pred.
+huber ==> Computes Huber loss value.
+LogCosh ==> Computes the logarithm of the hyperbolic cosine of the prediction error.
+log_cosh ==> Logarithm of the hyperbolic cosine of the prediction erro
+################################
+Enter the Optimizer Name:adam
+Adam ==> Optimizer that implements the Adam algorithm. 
+SGD ==> Gradient descent (with momentum) optimizer. 
+RMSprop ==> Optimizer that implements the RMSprop algorithm.
+Adadelta ==> Optimizer that implements the Adadelta algorithm.
+Adagrad ==> Optimizer that implements the Adagrad algorithm.
+Adamax ==> Optimizer that implements the Adamax algorithm
+Nadam ==> Optimizer that implements the NAdam algorithm. Much like Adam is essentially RMSprop with momentum, Nadam is Adam with Nesterov momentum.
+Ftrl ==> Optimizer that implements the FTRL algorithm.
+################################
+Enter the activation function name:relu
+relu
+sigmoid
+softmax
+softplus
+softsign
+selu
+elu
+exponential
+###############################
+Enter the number of neurans:100
+###############################
